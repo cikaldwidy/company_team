@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  list-style: none;
+}
+:root {
+  --bg-color: #fff;
+  --text-color1: #1f1f21;
+  --text-color2: #fff;
+  --main-color: #15a6f5;
+  --element-color: #26306e;
+  --element-color2: #16f4ba;
+  --element-color3: #febf01;
+  --element-color4: #d5d8d9;
+  --element-color5: #202428;
+
+  --big-font: 3.3rem;
+  --title-font: 40px;
+  --p-font: 1rem;
+}
+/* navbar */
+.custom-navbar {
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(20px);
+  transition: background 0.3s ease-in-out;
+}
+
+.custom-navbar .nav-link {
+  font-weight: 500;
+  opacity: 95%;
+  color: var(--text-color1);
+  font-size: 14px;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #1f1f2185 !important;
+}
+
+.custom-navbar .navbar-toggler {
+  border: none;
+}
+
+.btn-1 {
+  text-decoration: none;
+  background-color: transparent;
+  color: var(--element-color);
+  font-weight: 600;
+  font-size: 14px;
+  border: 1px solid var(--element-color);
+  border-radius: 7px;
+  padding: 5px 13px;
+  transition: all 0.3s ease-in-out;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+.btn-1:hover {
+  background-color: #26306e35;
+  color: var(--element-color);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.btn-2 {
+  text-decoration: none;
+  background-color: var(--element-color);
+  color: var(--text-color2);
+  font-weight: 600;
+  font-size: 14px;
+  border: 1px solid var(--element-color);
+  border-radius: 7px;
+  padding: 5px 13px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+.btn-2:hover {
+  color: var(--text-color2);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
+}
+
+body {
+}
+/* konten1 */
+.c1 {
+  padding-top: 80px;
+  padding-bottom: 30px;
+  background-color: #16f4b96c;
+}
+
+.text h1 {
+  font-weight: 600;
+  opacity: 97%;
+  font-size: 37px;
+  max-width: fit-content;
+  color: var(--text-color1);
+}
+.text p {
+  font-size: 15px;
+  opacity: 90%;
+  color: var(--text-color1);
+  font-weight: 500;
+}
+.text-clickable {
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.text-clickable:hover {
+  background: #f8f9fa;
+}
+
+img {
+  transition: opacity 0.3s ease-in-out;
+}
+#displayImage {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
