@@ -1,618 +1,506 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>E-learning | Sinaura</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
 
-    <!-- Link ke Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-learning | Sinaura</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
-    <!-- Link ke Bootstrap Bundle JS (termasuk Popper.js) -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Link ke Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-      rel="stylesheet"
-    />
+  <!-- Link ke Bootstrap Bundle JS (termasuk Popper.js) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
-    <link rel="stylesheet" href="./assets/css/learning-style.css" />
-  </head>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
 
-  <body>
-    <main>
-      <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img
-              src="./assets/images/sinaura1.png"
-              alt="AjarKita"
-              width="90px"
-              height="auto"
-            />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+  <link rel="stylesheet" href="./assets/css/learning-style.css" />
+</head>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 p-2 gap-lg-4">
-              <li class="nav-item">
-                <a class="nav-link" href="#"></i>Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="./learning.html">Learning</a>
-              </li>
-              <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Langganan</a>
-              </li>
-              <li class="nav-item"><a class="nav-link" href="#">Help?</a></li>
-            </ul>
-            <div class="d-flex flex-row p-2 gap-3">
-              <a href="./sign-up.html" class="btn-1">Masuk</a>
-              <a href="./login.html" class="btn-2">Daftar</a>
-            </div>
+<body>
+  <main>
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/images/sinaura1.png" alt="AjarKita" width="90px" height="auto" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 p-2 gap-lg-4">
+            <li class="nav-item">
+              <a class="nav-link" href="#"></i>Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./learning.html">Learning</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Langganan</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Help?</a></li>
+          </ul>
+          <div class="d-flex flex-row p-2 gap-3">
+            <a href="./sign-up.html" class="btn-1">Masuk</a>
+            <a href="./login.html" class="btn-2">Daftar</a>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
 
-      <!-- hero -->
-      <section class="c1">
-        <div class="container">
-          <div class="col-lg-12 p-2">
-            <div class="d-lg-flex flex-lg-row d-md-flex flex-md-column gap-5">
-              <div class="align-items-center justify-content-center">
-                <img src="./assets/images/lc-1.png" alt="pamflet" width=800px"
-                height="auto" class="img-fluid" />
-              </div>
-              <div class="text align-items-center justify-content-center mt-5">
-                <h1>Belajar Lebih Mudah, Sukses Lebih Dekat!</h1>
-                <p>
-                  Akses semua materi sekali bayar. Temukan bimbingan akademik
-                  online terbaik untuk membantumu memahami materi dengan lebih
-                  mudah dan efektif. materi pembelajaran interaktif, dan
-                  dukungan penuh untuk mencapai prestasi terbaikmu!
-                </p>
-                <div class="button mt-3 d-flex flex-row gap-3">
-                  <a href="#" class="btn-2 p-3">Mulai Berlangganan</a>
-                  <a href="#" class="btn-3 p-3">Lihat Materi</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- promote -->
-      <section class="container mt-5">
-        <div class="text-center promote mb-3">
-          <h5>ACTIVITY</h5>
-          <h3>Akses Semua Materi Yang Ada!</h3>
-        </div>
-        <div class="row align-items-center">
-          <!-- Bagian Gambar -->
-          <div class="col-12 col-md-6 order-md-last text-center">
-            <img
-              id="displayImage"
-              src="./assets/images/lc-2.jpg"
-              alt="images"
-              class="img-fluid"
-              width="400"
-              height="auto"
-            />
-          </div>
-
-          <!-- Bagian Konten -->
-          <div class="col-12 col-md-6">
-            <div
-              class="p-3 mb-3 text-clickable"
-              data-img="./assets/images/lc-1.jpg"
-            >
-              <h5>Semua Materi dalam Genggamanmu!</h5>
-              <p>
-                Belajar tanpa batas, kapan saja, di mana saja! Dengan akses
-                penuh ke semua materi, temukan pembelajaran yang sesuai dengan
-                kebutuhanmu.
-              </p>
-            </div>
-            <div
-              class="p-3 mb-3 text-clickable"
-              data-img="./assets/images/lc-4.png"
-            >
-              <h5>Satu Langganan, Ribuan Ilmu!</h5>
-              <p>
-                Dapatkan akses eksklusif ke berbagai materi berkualitas! Dengan
-                sekali daftar, kamu bisa menjelajahi ribuan modul, video
-                pembelajaran.
-              </p>
-            </div>
-            <div
-              class="p-3 mb-3 text-clickable"
-              data-img="./assets/images/lc-2.png"
-            >
-              <h5>Semua yang Kamu Butuhkan, Ada di Sini!</h5>
-              <p>
-                Tak perlu bingung cari materi, semuanya sudah tersedia! Dari
-                pelajaran sekolah hingga persiapan ujian, akses lengkap ke semua
-                modul.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- daftar materi -->
-      <section class="container mt-5">
+    <!-- hero -->
+    <section class="c1">
+      <div class="container">
         <div class="col-lg-12 p-2">
-          <div
-            class="d-md-flex flex-row gap-5 justify-content-between align-items-center daftar"
-          >
-            <h3>Daftar Learning</h3>
-            <form class="d-flex ms-auto" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Cari Materi"
-                aria-label="Search"
-              />
-              <button class="btn-2" type="submit">Cari</button>
-            </form>
-          </div>
-
-          <div class="row g-3 mt-3">
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-              <a href="#" class="card-link">
-                <div class="card p-3">
-                  <img
-                    src="./assets/images/mapel-3.png"
-                    alt="mapel"
-                    class="img-fluid mx-auto mb-3"
-                    width="210px"
-                    height="auto"
-                  />
-                  <h5>Matematika</h5>
-                  <div class="mt-3">
-                    <p>
-                      <i class="fa-solid fa-users" style="color: #26306e"></i>
-                      10.000
-                    </p>
-                    <p>
-                      <i
-                        class="fa-regular fa-bookmark"
-                        style="color: #26306e"
-                      ></i>
-                      12 Topik, 152 Materi
-                    </p>
-                    <p>
-                      <i class="fa-regular fa-star" style="color: #26306e"></i>
-                      5
-                    </p>
-                  </div>
-                </div>
-              </a>
+          <div class="d-lg-flex flex-lg-row d-md-flex flex-md-column gap-5">
+            <div class="align-items-center justify-content-center">
+              <img src="./assets/images/lc-1.png" alt="pamflet" width=800px" height="auto" class="img-fluid" />
             </div>
-
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-              <a href="#" class="card-link">
-                <div class="card p-3">
-                  <img
-                    src="./assets/images/mapel-2.png"
-                    alt="mapel"
-                    class="img-fluid mx-auto mb-3"
-                    width="210px"
-                    height="auto"
-                  />
-                  <h5>PPKN</h5>
-                  <div class="mt-3">
-                    <p>
-                      <i class="fa-solid fa-users" style="color: #26306e"></i>
-                      10.000
-                    </p>
-                    <p>
-                      <i
-                        class="fa-regular fa-bookmark"
-                        style="color: #26306e"
-                      ></i>
-                      12 Topik, 152 Materi
-                    </p>
-                    <p>
-                      <i class="fa-regular fa-star" style="color: #26306e"></i>
-                      5
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-              <a href="#" class="card-link">
-                <div class="card p-3">
-                  <img
-                    src="./assets/images/mapel-1.png"
-                    alt="mapel"
-                    class="img-fluid mx-auto mb-3"
-                    width="210px"
-                    height="auto"
-                  />
-                  <h5>Robotika</h5>
-                  <div class="mt-3">
-                    <p>
-                      <i class="fa-solid fa-users" style="color: #26306e"></i>
-                      10.000
-                    </p>
-                    <p>
-                      <i
-                        class="fa-regular fa-bookmark"
-                        style="color: #26306e"
-                      ></i>
-                      12 Topik, 152 Materi
-                    </p>
-                    <p>
-                      <i class="fa-regular fa-star" style="color: #26306e"></i>
-                      5
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-              <a href="#" class="card-link">
-                <div class="card p-3">
-                  <img
-                    src="./assets/images/mapel-4.png"
-                    alt="mapel"
-                    class="img-fluid mx-auto mb-3"
-                    width="210px"
-                    height="auto"
-                  />
-                  <h5>Fisika</h5>
-                  <div class="mt-3">
-                    <p>
-                      <i class="fa-solid fa-users" style="color: #26306e"></i>
-                      10.000
-                    </p>
-                    <p>
-                      <i
-                        class="fa-regular fa-bookmark"
-                        style="color: #26306e"
-                      ></i>
-                      12 Topik, 152 Materi
-                    </p>
-                    <p>
-                      <i class="fa-regular fa-star" style="color: #26306e"></i>
-                      5
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-              <a href="#" class="card-link">
-                <div class="card p-3">
-                  <img
-                    src="./assets/images/mapel-4.png"
-                    alt="mapel"
-                    class="img-fluid mx-auto mb-3"
-                    width="210px"
-                    height="auto"
-                  />
-                  <h5>Seni Budaya</h5>
-                  <div class="mt-3">
-                    <p>
-                      <i class="fa-solid fa-users" style="color: #26306e"></i>
-                      10.000
-                    </p>
-                    <p>
-                      <i
-                        class="fa-regular fa-bookmark"
-                        style="color: #26306e"
-                      ></i>
-                      12 Topik, 152 Materi
-                    </p>
-                    <p>
-                      <i class="fa-regular fa-star" style="color: #26306e"></i>
-                      5
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-              <a href="#" class="card-link">
-                <div class="card p-3">
-                  <img
-                    src="./assets/images/mapel-3.png"
-                    alt="mapel"
-                    class="img-fluid mx-auto mb-3"
-                    width="210px"
-                    height="auto"
-                  />
-                  <h5>Bahasa Inggris</h5>
-                  <div class="mt-3">
-                    <p>
-                      <i class="fa-solid fa-users" style="color: #26306e"></i>
-                      10.000
-                    </p>
-                    <p>
-                      <i
-                        class="fa-regular fa-bookmark"
-                        style="color: #26306e"
-                      ></i>
-                      12 Topik, 152 Materi
-                    </p>
-                    <p>
-                      <i class="fa-regular fa-star" style="color: #26306e"></i>
-                      5
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-              <a href="#" class="card-link">
-                <div class="card p-3">
-                  <img
-                    src="./assets/images/mapel-2.png"
-                    alt="mapel"
-                    class="img-fluid mx-auto mb-3"
-                    width="210px"
-                    height="auto"
-                  />
-                  <h5>IPS</h5>
-                  <div class="mt-3">
-                    <p>
-                      <i class="fa-solid fa-users" style="color: #26306e"></i>
-                      10.000
-                    </p>
-                    <p>
-                      <i
-                        class="fa-regular fa-bookmark"
-                        style="color: #26306e"
-                      ></i>
-                      12 Topik, 152 Materi
-                    </p>
-                    <p>
-                      <i class="fa-regular fa-star" style="color: #26306e"></i>
-                      5
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-              <a href="#" class="card-link">
-                <div class="card p-3">
-                  <img
-                    src="./assets/images/mapel-1.png"
-                    alt="mapel"
-                    class="img-fluid mx-auto mb-3"
-                    width="210px"
-                    height="auto"
-                  />
-                  <h5>Bahasa Indonesia</h5>
-                  <div class="mt-3">
-                    <p>
-                      <i class="fa-solid fa-users" style="color: #26306e"></i>
-                      10.000
-                    </p>
-                    <p>
-                      <i
-                        class="fa-regular fa-bookmark"
-                        style="color: #26306e"
-                      ></i>
-                      12 Topik, 152 Materi
-                    </p>
-                    <p>
-                      <i class="fa-regular fa-star" style="color: #26306e"></i>
-                      5
-                    </p>
-                  </div>
-                </div>
-              </a>
+            <div class="text align-items-center justify-content-center mt-5">
+              <h1>Belajar Lebih Mudah, Sukses Lebih Dekat!</h1>
+              <p>
+                Akses semua materi sekali bayar. Temukan bimbingan akademik
+                online terbaik untuk membantumu memahami materi dengan lebih
+                mudah dan efektif. materi pembelajaran interaktif, dan
+                dukungan penuh untuk mencapai prestasi terbaikmu!
+              </p>
+              <div class="button mt-3 d-flex flex-row gap-3">
+                <a href="#" class="btn-2 p-3">Mulai Berlangganan</a>
+                <a href="#" class="btn-3 p-3">Lihat Materi</a>
+              </div>
             </div>
           </div>
         </div>
-      </section>
-      <!-- hubungi kami -->
-      <section class="c5">
-        <div class="container p-2 mt-5">
-          <div class="col-lg-12">
-            <div class="row">
-              <div
-                class="d-lg-flex flex-lg-row d-md-flex flex-md-column justify-content-center"
-              >
-                <div class="textkontak">
-                  <h3 class="mt-5">Informasi Kontak</h3>
+      </div>
+    </section>
+    <!-- promote -->
+    <section class="container mt-5">
+      <div class="text-center promote mb-3">
+        <h5>ACTIVITY</h5>
+        <h3>Akses Semua Materi Yang Ada!</h3>
+      </div>
+      <div class="row align-items-center">
+        <!-- Bagian Gambar -->
+        <div class="col-12 col-md-6 order-md-last text-center">
+          <img id="displayImage" src="./assets/images/lc-2.jpg" alt="images" class="img-fluid" width="400"
+            height="auto" />
+        </div>
+
+        <!-- Bagian Konten -->
+        <div class="col-12 col-md-6">
+          <div class="p-3 mb-3 text-clickable" data-img="./assets/images/lc-1.jpg">
+            <h5>Semua Materi dalam Genggamanmu!</h5>
+            <p>
+              Belajar tanpa batas, kapan saja, di mana saja! Dengan akses
+              penuh ke semua materi, temukan pembelajaran yang sesuai dengan
+              kebutuhanmu.
+            </p>
+          </div>
+          <div class="p-3 mb-3 text-clickable" data-img="./assets/images/lc-4.png">
+            <h5>Satu Langganan, Ribuan Ilmu!</h5>
+            <p>
+              Dapatkan akses eksklusif ke berbagai materi berkualitas! Dengan
+              sekali daftar, kamu bisa menjelajahi ribuan modul, video
+              pembelajaran.
+            </p>
+          </div>
+          <div class="p-3 mb-3 text-clickable" data-img="./assets/images/lc-2.png">
+            <h5>Semua yang Kamu Butuhkan, Ada di Sini!</h5>
+            <p>
+              Tak perlu bingung cari materi, semuanya sudah tersedia! Dari
+              pelajaran sekolah hingga persiapan ujian, akses lengkap ke semua
+              modul.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- daftar materi -->
+    <section class="container mt-5">
+      <div class="col-lg-12 p-2">
+        <div class="d-md-flex flex-row gap-5 justify-content-between align-items-center daftar">
+          <h3>Daftar Learning</h3>
+          <form class="d-flex ms-auto" role="search">
+            <input class="form-control me-2" type="search" placeholder="Cari Materi" aria-label="Search" />
+            <button class="btn-2" type="submit">Cari</button>
+          </form>
+        </div>
+
+        <div class="row g-3 mt-3">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <a href="#" class="card-link">
+              <div class="card p-3">
+                <img src="./assets/images/mapel-3.png" alt="mapel" class="img-fluid mx-auto mb-3" width="210px"
+                  height="auto" />
+                <h5>Matematika</h5>
+                <div class="mt-3">
                   <p>
-                    Jika Anda memiliki pertanyaan atau butuh bantuan, silakan
-                    hubungi kami melalui informasi berikut:
+                    <i class="fa-solid fa-users" style="color: #26306e"></i>
+                    10.000
                   </p>
-                  <ul>
-                    <li><img src="./assets/images/mail.png" alt="email" width="20px" height="auto" class="me-2"> <a href="#"> SINAURA.ID@gmail.com</a></li>
-                    <li><img src="./assets/images/phone.png" alt="phone" width="20px" height="auto" class="me-2"><a href="#"> +6285604120843</a></li>
-                    <li>
-                      <h3 class="mt-3">Media Sosial</h3>
-                      <ul>
-                        <li>
-                          <a
-                            href="https://www.facebook.com/akun"
-                            target="_blank"
-                          >
-                            <img
-                              src="./assets/images/facebook.png"
-                              alt="fb"
-                              width="20px"
-                              height="auto"
-                              class="me-2"
-                            />
-                            Facebook</a
-                          >
-                        </li>
-                        <li>
-                          <a
-                            href="https://www.instagram.com/akun"
-                            target="_blank"
-                          >
-                            <img
-                              src="./assets/images/instagram.png"
-                              alt="fb"
-                              width="20px"
-                              height="auto"
-                              class="me-2"
-                            />Instagram</a
-                          >
-                        </li>
-                        <li>
-                          <a href="https://twitter.com/akun" target="_blank">
-                            <img
-                              src="./assets/images/linkedin.png"
-                              alt="fb"
-                              width="20px"
-                              height="auto"
-                              class="me-2 img-fluid"
-                            />
-                            LinkedIn</a
-                          >
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                  <div class="mt-4">
+                  <p>
+                    <i class="fa-regular fa-bookmark" style="color: #26306e"></i>
+                    12 Topik, 152 Materi
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-star" style="color: #26306e"></i>
+                    5
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <a href="#" class="card-link">
+              <div class="card p-3">
+                <img src="./assets/images/mapel-2.png" alt="mapel" class="img-fluid mx-auto mb-3" width="210px"
+                  height="auto" />
+                <h5>PPKN</h5>
+                <div class="mt-3">
+                  <p>
+                    <i class="fa-solid fa-users" style="color: #26306e"></i>
+                    10.000
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-bookmark" style="color: #26306e"></i>
+                    12 Topik, 152 Materi
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-star" style="color: #26306e"></i>
+                    5
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <a href="#" class="card-link">
+              <div class="card p-3">
+                <img src="./assets/images/mapel-1.png" alt="mapel" class="img-fluid mx-auto mb-3" width="210px"
+                  height="auto" />
+                <h5>Robotika</h5>
+                <div class="mt-3">
+                  <p>
+                    <i class="fa-solid fa-users" style="color: #26306e"></i>
+                    10.000
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-bookmark" style="color: #26306e"></i>
+                    12 Topik, 152 Materi
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-star" style="color: #26306e"></i>
+                    5
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <a href="#" class="card-link">
+              <div class="card p-3">
+                <img src="./assets/images/mapel-4.png" alt="mapel" class="img-fluid mx-auto mb-3" width="210px"
+                  height="auto" />
+                <h5>Fisika</h5>
+                <div class="mt-3">
+                  <p>
+                    <i class="fa-solid fa-users" style="color: #26306e"></i>
+                    10.000
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-bookmark" style="color: #26306e"></i>
+                    12 Topik, 152 Materi
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-star" style="color: #26306e"></i>
+                    5
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <a href="#" class="card-link">
+              <div class="card p-3">
+                <img src="./assets/images/mapel-4.png" alt="mapel" class="img-fluid mx-auto mb-3" width="210px"
+                  height="auto" />
+                <h5>Seni Budaya</h5>
+                <div class="mt-3">
+                  <p>
+                    <i class="fa-solid fa-users" style="color: #26306e"></i>
+                    10.000
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-bookmark" style="color: #26306e"></i>
+                    12 Topik, 152 Materi
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-star" style="color: #26306e"></i>
+                    5
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <a href="#" class="card-link">
+              <div class="card p-3">
+                <img src="./assets/images/mapel-3.png" alt="mapel" class="img-fluid mx-auto mb-3" width="210px"
+                  height="auto" />
+                <h5>Bahasa Inggris</h5>
+                <div class="mt-3">
+                  <p>
+                    <i class="fa-solid fa-users" style="color: #26306e"></i>
+                    10.000
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-bookmark" style="color: #26306e"></i>
+                    12 Topik, 152 Materi
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-star" style="color: #26306e"></i>
+                    5
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <a href="#" class="card-link">
+              <div class="card p-3">
+                <img src="./assets/images/mapel-2.png" alt="mapel" class="img-fluid mx-auto mb-3" width="210px"
+                  height="auto" />
+                <h5>IPS</h5>
+                <div class="mt-3">
+                  <p>
+                    <i class="fa-solid fa-users" style="color: #26306e"></i>
+                    10.000
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-bookmark" style="color: #26306e"></i>
+                    12 Topik, 152 Materi
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-star" style="color: #26306e"></i>
+                    5
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <a href="#" class="card-link">
+              <div class="card p-3">
+                <img src="./assets/images/mapel-1.png" alt="mapel" class="img-fluid mx-auto mb-3" width="210px"
+                  height="auto" />
+                <h5>Bahasa Indonesia</h5>
+                <div class="mt-3">
+                  <p>
+                    <i class="fa-solid fa-users" style="color: #26306e"></i>
+                    10.000
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-bookmark" style="color: #26306e"></i>
+                    12 Topik, 152 Materi
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-star" style="color: #26306e"></i>
+                    5
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- daftar mentor -->
+    <section class="container p-2 mt-5">
+      <div class="textmentor text-center">
+        <h3>Rekomendasi Mentor</h3>
+        <p>Upgrade potensi skillmu dengan pendamping yang relevan sesuai bidangmu!</p>
+      </div>
+      <div class="mentor-container col-lg-12 gap-3 p-2">
+        <div class="mentor-card p-3">
+          <img src="./assets/images/mentor-1.png" alt="mentor" width="350px" height="auto">
+          <h3 class="mt-2">Ayu Sulistawan</h3>
+          <p>Matematika | E-Fishery</p>
+          <button class="btn-2">Lihat Materi</button>
+        </div>
+        <div class="mentor-card p-3">
+          <img src="./assets/images/mentor-2.png" alt="mentor" width="350px" height="auto">
+          <h3 class="mt-2">Dodi Setiawan</h3>
+          <p>Matematika | E-Fishery</p>
+          <button class="btn-2">Lihat Materi</button>
+        </div>
+        <div class="mentor-card p-3">
+          <img src="./assets/images/mentor-1.png" alt="mentor" width="350px" height="auto">
+          <h3 class="mt-2">Ayu Sulistawan</h3>
+          <p>Matematika | E-Fishery</p>
+          <button class="btn-2">Lihat Materi</button>
+        </div>
+        <div class="mentor-card p-3">
+          <img src="./assets/images/mentor-3.png" alt="mentor" width="350px" height="auto">
+          <h3 class="mt-2">Dina Malika</h3>
+          <p>Matematika | E-Fishery</p>
+          <button class="btn-2">Lihat Materi</button>
+        </div>
+        <div class="mentor-card p-3">
+          <img src="./assets/images/mentor-4.png" alt="mentor" width="350px" height="auto">
+          <h3 class="mt-2">Rapli Mursalin</h3>
+          <p>Matematika | E-Fishery</p>
+          <button class="btn-2">Lihat Materi</button>
+        </div>
+        <div class="mentor-card p-3">
+          <img src="./assets/images/mentor-2.png" alt="mentor" width="350px" height="auto">
+          <h3 class="mt-2">Rapi Bayu</h3>
+          <p>Matematika | E-Fishery</p>
+          <button class="btn-2">Lihat Materi</button>
+        </div>
+        <div class="mentor-card p-3">
+          <img src="./assets/images/mentor-1.png" alt="mentor" width="350px" height="auto">
+          <h3 class="mt-2">Nina Alaystiya</h3>
+          <p>Matematika | E-Fishery</p>
+          <button class="btn-2">Lihat Materi</button>
+        </div>
+        <div class="mentor-card p-3">
+          <img src="./assets/images/mentor-2.png" alt="mentor" width="350px" height="auto">
+          <h3 class="mt-2">Alif Mahamulya</h3>
+          <p>Matematika | E-Fishery</p>
+          <button class="btn-2">Lihat Materi</button>
+        </div>
+
+      
+      </div>
+    </section>
+    <!-- hubungi kami -->
+    <section class="c5">
+      <div class="container p-2 mt-5">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="d-lg-flex flex-lg-row d-md-flex flex-md-column justify-content-center">
+              <div class="textkontak">
+                <h3 class="mt-5">Informasi Kontak</h3>
+                <p>
+                  Jika Anda memiliki pertanyaan atau butuh bantuan, silakan
+                  hubungi kami melalui informasi berikut:
+                </p>
+                <ul>
+                  <li><img src="./assets/images/mail.png" alt="email" width="20px" height="auto" class="me-2"> <a
+                      href="#"> SINAURA.ID@gmail.com</a></li>
+                  <li><img src="./assets/images/phone.png" alt="phone" width="20px" height="auto" class="me-2"><a
+                      href="#"> +6285604120843</a></li>
+                  <li>
+                    <h3 class="mt-3">Media Sosial</h3>
+                    <ul>
+                      <li>
+                        <a href="https://www.facebook.com/akun" target="_blank">
+                          <img src="./assets/images/facebook.png" alt="fb" width="20px" height="auto" class="me-2" />
+                          Facebook</a>
+                      </li>
+                      <li>
+                        <a href="https://www.instagram.com/akun" target="_blank">
+                          <img src="./assets/images/instagram.png" alt="fb" width="20px" height="auto"
+                            class="me-2" />Instagram</a>
+                      </li>
+                      <li>
+                        <a href="https://twitter.com/akun" target="_blank">
+                          <img src="./assets/images/linkedin.png" alt="fb" width="20px" height="auto"
+                            class="me-2 img-fluid" />
+                          LinkedIn</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <div class="mt-4">
                   <a href="#" class="btn-2 p-2 text-light">Hubungi Tim Kami</a>
                 </div>
-                </div>
-                <div class="imgkontak">
-                  <img
-                    src="./assets/images/c-5.png"
-                    alt="contactus"
-                    width="400"
-                    height="auto"
-                  />
-                </div>
+              </div>
+              <div class="imgkontak">
+                <img src="./assets/images/c-5.png" alt="contactus" width="400" height="auto" />
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- footer -->
-      <footer class="container mt-5 p-2 footer">
-        <div class="row">
-          <!-- Bagian Logo dan Info -->
-          <div
-            class="text1 col-12 col-md-6 col-lg-3 mb-4 text-center text-lg-start d-flex flex-column align-items-center align-items-lg-start"
-          >
-            <img
-              src="./assets/images/sinaura1.png"
-              alt="logo"
-              width="70px"
-              height="auto"
-              class="mt-3 mb-2"
-            />
-            <!-- Logo naik ke atas -->
-            <h5 class="mb-3">Rintis Karir Impian bersama AjarKita</h5>
-            <p class="mb-1">Jalan Indonesia Raya No.123 Tulungagung</p>
-            <a href="#" class="d-block">+6285604120843</a>
-          </div>
-
-          <!-- Bagian Link Navigasi -->
-          <div class="col-6 col-md-3 col-lg-3 mb-4 text2">
-            <h5>AjarKita</h5>
-            <a href="#" class="d-block">Tentang Kami</a>
-            <a href="#" class="d-block">Karir</a>
-            <a href="#" class="d-block">Kerjasama</a>
-            <a href="#" class="d-block">Blog</a>
-          </div>
-
-          <div class="col-6 col-md-3 col-lg-3 mb-4 text2">
-            <h5>Produk</h5>
-            <a href="#" class="d-block">E-Learning</a>
-            <a href="#" class="d-block">Program</a>
-            <a href="#" class="d-block">Review</a>
-          </div>
-
-          <div class="col-6 col-md-3 col-lg-3 mb-4 text2">
-            <h5>Lainnya</h5>
-            <a href="#" class="d-block">FAQ</a>
-            <a href="#" class="d-block">Syarat dan Ketentuan</a>
-            <a href="#" class="d-block">Ketentuan Privasi</a>
-            <div class="mb-4"></div>
-            <form action="">
-              <label>NewsLetter</label>
-              <div class="d-flex flex-row gap-2">
-                <input type="email" placeholder="Input Your Email Here" />
-                <button class="btn-2">
-                  <i class="fa-solid fa-arrow-right"></i>
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-
-        <!-- Bagian Sosial Media -->
+    <!-- footer -->
+    <footer class="container mt-5 p-2 footer">
+      <div class="row">
+        <!-- Bagian Logo dan Info -->
         <div
-          class="d-flex justify-content-center justify-content-center gap-3 my-3"
-        >
-          <a href="#"
-            ><img
-              src="./assets/images/facebook.png"
-              alt="facebook"
-              width="25px"
-              height="auto"
-          /></a>
-          <a href="#"
-            ><img
-              src="./assets/images/github.png"
-              alt="github"
-              width="25px"
-              height="auto"
-          /></a>
-          <a href="#"
-            ><img
-              src="./assets/images/instagram.png"
-              alt="instagram"
-              width="25px"
-              height="auto"
-          /></a>
-          <a href="#"
-            ><img
-              src="./assets/images/linkedin.png"
-              alt="linkedin"
-              width="25px"
-              height="auto"
-          /></a>
+          class="text1 col-12 col-md-6 col-lg-3 mb-4 text-center text-lg-start d-flex flex-column align-items-center align-items-lg-start">
+          <img src="./assets/images/sinaura1.png" alt="logo" width="70px" height="auto" class="mt-3 mb-2" />
+          <!-- Logo naik ke atas -->
+          <h5 class="mb-3">Rintis Karir Impian bersama AjarKita</h5>
+          <p class="mb-1">Jalan Indonesia Raya No.123 Tulungagung</p>
+          <a href="#" class="d-block">+6285604120843</a>
         </div>
 
-        <!-- Copyright -->
-        <div class="text-center mt-5 text3">
-          <p>&copy; 2025-2026 AjarKita. All Rights Reserved</p>
+        <!-- Bagian Link Navigasi -->
+        <div class="col-6 col-md-3 col-lg-3 mb-4 text2">
+          <h5>AjarKita</h5>
+          <a href="#" class="d-block">Tentang Kami</a>
+          <a href="#" class="d-block">Karir</a>
+          <a href="#" class="d-block">Kerjasama</a>
+          <a href="#" class="d-block">Blog</a>
         </div>
-      </footer>
-    </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./assets/js/learning.js"></script>
-  </body>
+
+        <div class="col-6 col-md-3 col-lg-3 mb-4 text2">
+          <h5>Produk</h5>
+          <a href="#" class="d-block">E-Learning</a>
+          <a href="#" class="d-block">Program</a>
+          <a href="#" class="d-block">Review</a>
+        </div>
+
+        <div class="col-6 col-md-3 col-lg-3 mb-4 text2">
+          <h5>Lainnya</h5>
+          <a href="#" class="d-block">FAQ</a>
+          <a href="#" class="d-block">Syarat dan Ketentuan</a>
+          <a href="#" class="d-block">Ketentuan Privasi</a>
+          <div class="mb-4"></div>
+          <form action="">
+            <label>NewsLetter</label>
+            <div class="d-flex flex-row gap-2">
+              <input type="email" placeholder="Input Your Email Here" />
+              <button class="btn-2">
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Bagian Sosial Media -->
+      <div class="d-flex justify-content-center justify-content-center gap-3 my-3">
+        <a href="#"><img src="./assets/images/facebook.png" alt="facebook" width="25px" height="auto" /></a>
+        <a href="#"><img src="./assets/images/github.png" alt="github" width="25px" height="auto" /></a>
+        <a href="#"><img src="./assets/images/instagram.png" alt="instagram" width="25px" height="auto" /></a>
+        <a href="#"><img src="./assets/images/linkedin.png" alt="linkedin" width="25px" height="auto" /></a>
+      </div>
+
+      <!-- Copyright -->
+      <div class="text-center mt-5 text3">
+        <p>&copy; 2025-2026 AjarKita. All Rights Reserved</p>
+      </div>
+    </footer>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/learning.js"></script>
+</body>
+
 </html>

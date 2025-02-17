@@ -226,6 +226,52 @@ img {
 .card:hover {
   background: #20242820;
 }
+/* mentor */
+.textmentor h3 {
+  font-size: 23px;
+  font-weight: 600;
+  color: var(--text-color1);
+}
+.textmentor p {
+  color: var(--text-color1);
+  font-weight: 400;
+  font-size: 15px;
+}
+.mentor-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.mentor-card {
+  flex: 0 0 auto;
+  width: 230px;
+  height: auto;
+
+  text-align: center;
+  background: var(--element-color5);
+  color: var(--text-color2);
+  border-radius: 10px;
+  scroll-snap-align: start;
+  cursor: pointer;
+}
+.mentor-container::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+.mentor-card h3 {
+  font-size: 23px;
+  font-weight: 500;
+  font-style: unset;
+}
+.mentor-card p {
+  font-size: 13px;
+  font-weight: 500;
+}
+.mentor-card img {
+  width: 100%;
+  border-radius: 10px;
+}
 /* konten5 */
 .textkontak h3 {
   color: var(--text-color1);
