@@ -25,6 +25,7 @@
   --p-font: 1rem;
 }
 /* navbar */
+
 .custom-navbar {
   background: rgba(255, 255, 255, 0);
   backdrop-filter: blur(20px);
@@ -33,13 +34,18 @@
 
 .custom-navbar .nav-link {
   font-weight: 500;
-  opacity: 95%;
-  color: var(--text-color1);
+  opacity: 83%;
+  color: black;
   font-size: 14px;
+  letter-spacing: -0.1px;
 }
 
 .custom-navbar .nav-link:hover {
-  color: #1f1f2185 !important;
+  opacity: 60%;
+}
+.custom-navbar .active {
+  color: #26306e !important;
+  font-weight: 600;
 }
 
 .custom-navbar .navbar-toggler {
@@ -54,7 +60,7 @@
   font-size: 14px;
   border: 1px solid var(--element-color);
   border-radius: 7px;
-  padding: 5px 13px;
+  padding: 5px 15px;
   transition: all 0.3s ease-in-out;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
@@ -75,8 +81,8 @@
   font-size: 14px;
   border: 1px solid var(--element-color);
   border-radius: 7px;
-  padding: 5px 13px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  padding: 5px 15px;
+  box-shadow: 0px 4px 8px #26306e8c;
   transition: all 0.3s ease-in-out;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
@@ -87,37 +93,93 @@
 .btn-2:hover {
   color: var(--text-color2);
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
+  background-color: #21295f;
+}
+.btn-3 {
+  text-decoration: none;
+  background-color: #d7263d;
+  color: var(--text-color1);
+  font-weight: 600;
+  font-size: 14px;
+  border: 1px solid #d7263d;
+  border-radius: 7px;
+  padding: 5px 15px;
+  box-shadow: 0px 4px 8px #d7263e8c;
+  transition: all 0.3s ease-in-out;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
 }
 
+.btn-3:hover {
+  color: var(--text-color1);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
+  background-color: #a01f30;
+}
 body {
 }
 /* konten1 */
 .c1 {
   padding-top: 80px;
   padding-bottom: 30px;
-  background-color: #16f4b96c;
+  background-color: #16f4b940;
+  /* background-color: #16f4b953; */
 }
-
+.c5 {
+  background-color: #16f4b940;
+}
 .text h1 {
   font-weight: 600;
   opacity: 97%;
-  font-size: 37px;
+  font-size: 35px;
   max-width: fit-content;
   color: var(--text-color1);
 }
 .text p {
   font-size: 15px;
-  opacity: 90%;
   color: var(--text-color1);
-  font-weight: 500;
+  font-weight: 400;
+}
+/* konten2 */
+.promote h5 {
+  color: #202428b5;
+  font-size: 13px;
+  font-weight: 600;
+}
+.promote h3 {
+  color: var(--text-color1);
+  font-size: 23px;
+  font-weight: 600;
+  opacity: 95%;
 }
 .text-clickable {
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   transition: background 0.3s;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
-
+.text-clickable h5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-color1);
+  opacity: 95%;
+}
+.text-clickable p {
+  font-size: 13px;
+  color: var(--text-color1);
+  font-weight: 500;
+  opacity: 80%;
+}
 .text-clickable:hover {
-  background: #f8f9fa;
+  background: #20242820;
+}
+.text-clickable:focus {
+  border: 1px solid var(--element-color2);
 }
 
 img {
@@ -127,4 +189,120 @@ img {
   width: 100%;
   max-width: 400px;
   height: auto;
+}
+
+/* daftar kelas */
+.daftar h3 {
+  font-size: 23px;
+  font-weight: 600;
+  color: var(--text-color1);
+}
+.card-link {
+  text-decoration: none;
+  color: inherit; /* Warna teks mengikuti warna yang ada */
+}
+.card-link:hover {
+  text-decoration: none; /* Menghapus garis bawah pada link */
+  color: inherit;
+}
+.card h5 {
+  font-size: 17px;
+  font-weight: 600;
+}
+.card p {
+  font-size: 13px;
+  font-weight: 500;
+}
+.card {
+  cursor: pointer;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.card:hover {
+  background: #20242820;
+}
+/* konten5 */
+.textkontak h3 {
+  color: var(--text-color1);
+  font-size: 25px;
+  font-weight: 600;
+  opacity: 95%;
+}
+.textkontak p {
+  color: var(--text-color1);
+  max-width: 700px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.textkontak a {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--text-color1);
+  font-size: 15px;
+  font-weight: 400;
+}
+/* footer */
+.footer .text1 h5 {
+  font-size: 15px;
+  font-weight: 400;
+}
+.footer .text1 p {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--text-color1);
+  opacity: 70%;
+  font-style: italic;
+}
+.footer .text1 a {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--text-color1);
+  opacity: 70%;
+  text-decoration: none;
+}
+.footer .text2 h5 {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-color1);
+  opacity: 80%;
+}
+.footer .text2 a {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--text-color1);
+  text-decoration: none;
+}
+.footer .text2 a:hover {
+  text-decoration: underline;
+}
+.footer .text3 p {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--text-color1);
+  opacity: 90%;
+}
+input[type="email"] {
+  max-width: 200px;
+  border: none;
+  border-bottom: 1.5px solid var(--element-color5);
+  outline: none;
+}
+
+input[type="email"]:focus {
+  border-bottom-color: var(--element-color5);
+}
+::placeholder {
+  font-weight: 400;
+  font-size: 13px;
+}
+label {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-color1);
+  opacity: 80%;
 }
