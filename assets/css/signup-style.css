@@ -20,98 +20,157 @@
   --element-color4: #d5d8d9;
   --element-color5: #202428;
 
-  --big-font: 3.3rem;
+  --big-font: 3rem;
   --title-font: 40px;
   --p-font: 1rem;
 }
 
 .content {
-  background: url(../images/bg-login.jpg);
+  background-color: var(--bg-color);
+}
+.content .text-start {
+  background-color: var(--bg-color);
 }
 .content h1 {
   font-size: var(--big-font);
   font-weight: 600;
-  color: var(--element-color4);
-  max-width: 350px;
+  color: var(--text-color1);
+  max-width: 280px;
 }
-.content p {
-  font-size: var(--p-font);
-  color: var(--element-color4);
-  font-weight: 500;
+.text-form h1 {
+  font-size: 23px;
+  color: var(--text-color1);
+  font-weight: 600;
+  opacity: 95%;
+}
+.text-form h5 {
+  margin-top: 10px;
+  font-size: 15px;
+  color: var(--text-color1);
+  font-weight: 400;
+  opacity: 90%;
+}
+.btn-2 {
+  text-decoration: none;
+  background-color: var(--element-color);
+  color: var(--text-color2);
+  font-weight: 600;
+  font-size: 15px;
+  border: 1px solid var(--element-color);
+  border-radius: 10px;
+  padding: 13px;
+  box-shadow: 0px 4px 8px #26306e8c;
+  transition: all 0.3s ease-in-out;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
+.btn-2:hover {
+  color: var(--text-color2);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
+  background-color: #21295f;
+}
 /* right */
 .form {
-  background-color: var(--element-color4);
+  background-color: var(--bg-color);
 }
-.form h2 {
-  font-size: 25px;
-  font-weight: 600;
-  color: var(--element-color5);
-}
-.form p {
-  font-size: 12px;
-  color: #505050;
-  font-weight: 600;
-}
+
 .form a {
   color: var(--text-color1);
   opacity: 100%;
   text-decoration: none;
 }
-input[type="username"] {
-  border: none;
-  border-bottom: 1.5px solid var(--element-color5);
-  outline: none;
-}
 
+input[type="username"] {
+  height: 50px;
+  border: 1.35px solid var(--element-color4);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+input[type="username"]:hover {
+  border: 1.35px solid var(--element-color);
+}
 input[type="username"]:focus {
-  border-bottom-color: var(--element-color5);
-  border-bottom: 2px solid var(--element-color5);
+  border: 1px solid var(--element-color);
+  opacity: 80%;
 }
 input[type="email"] {
-  border: none;
-  border-bottom: 1.5px solid var(--element-color5);
-  outline: none;
+  height: 50px;
+  border: 1.35px solid var(--element-color4);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
-
+input[type="email"]:hover {
+  border: 1.35px solid var(--element-color);
+}
 input[type="email"]:focus {
-  border-bottom-color: var(--element-color5);
-  border-bottom: 2px solid var(--element-color5);
+  border: 1px solid var(--element-color);
+  opacity: 80%;
 }
 input[type="password"] {
-  border: none;
-  border-bottom: 1.5px solid var(--element-color5);
-  outline: none;
+  height: 50px;
+  border: 1.35px solid var(--element-color4);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
-
+input[type="password"]:hover {
+  border: 1.35px solid var(--element-color);
+}
 input[type="password"]:focus {
-  border-bottom-color: var(--element-color5);
-  border-bottom: 2px solid var(--element-color5);
+  border: 1px solid var(--element-color);
+  opacity: 80%;
 }
 ::placeholder {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 15px;
 }
 
 .login p {
   font-size: 15px;
   color: var(--element-color5);
+  font-weight: 600;
 }
 
 .link p {
   font-size: 13px;
-  font-weight: 600;
-  color: #505050;
+  font-weight: 400;
+  color: var(--text-color1);
 }
 .link a {
   font-weight: 600;
+  color: var(--element-color);
 }
-
-.btn {
-  font-size: 15px;
+.syarat p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #505050;
+}
+.syarat a {
+  font-weight: 500;
   color: var(--text-color1);
-  font-weight: 600;
-  background-color: var(--element-color3);
-  border: 1px solid var(--element-color5);
+  text-decoration: underline;
+}
+.form-check-label {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--text-color1);
+  cursor: pointer;
+}
+.form-check-input:checked {
+  background-color: var(--element-color);
+  cursor: pointer;
+}
+.form-check-input:hover {
+  cursor: pointer;
 }

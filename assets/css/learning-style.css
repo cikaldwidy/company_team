@@ -27,7 +27,7 @@
 /* navbar */
 
 .custom-navbar {
-  background: rgba(255, 255, 255, 0);
+  background: rgba(255, 255, 255, 0.096);
   backdrop-filter: blur(20px);
   transition: background 0.3s ease-in-out;
 }
